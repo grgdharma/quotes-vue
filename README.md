@@ -3,6 +3,10 @@ Inspirational quotes about life and struggles.
 
 This template should help get you started developing with Vue 3 in Vite.
 
+# API
+```
+VITE_APP_ROOT_API=https://type.fit/api
+```
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
