@@ -33,11 +33,11 @@ export default {
 	methods: {
 		getQuoteList(){
 			let app = this;
-			axios.get("http://localhost:8000/api/v1/quotes").then(function(response){
-				//console.log(JSON.stringify(response.data));
+			let url = import.meta.env.VITE_APP_ROOT_API+"/quotes";
+			axios.get(url).then(function(response){
 				app.quoteLists = [];
-				response.data.quotes.forEach(function (item) {
-					app.quoteLists.push(item.quote);
+				response.data.forEach(function (item) {
+					app.quoteLists.push(item.text);
 				})
 				
 			})
