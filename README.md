@@ -7,7 +7,7 @@ This template should help get you started developing with Vue 3 in Vite.
 ```
 VITE_APP_ROOT_API=https://type.fit/api
 
-API endpoint: https://type.fit/api/quotes 
+API Endpoint: https://type.fit/api/quotes 
 [
   {
     "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
